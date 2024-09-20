@@ -1,0 +1,58 @@
+.App {
+    text-align: center;
+    background-color: rgb(167, 196, 120);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 86, 162);
+  }
+  .sidebar{
+  background-color:whitesmoke;
+  width:200px;
+  padding: 70px;
+ height: 100vh;
+  
+  }
+  .button{
+    background-color:lightslategray;
+    border:none;
+    padding:20px;
+    font-size:16px;
+    display:flex;
+    gap: 30px;
+    position: fixed;
+    top: 20px;
+    right: 600px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+.sidebar button {
+  background-color:#7DA3AE; /* Button background color */
+  color:#000000; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  font:16px Roboto,sans-serif;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition:all;
+  width: 100%; 
+  margin-top: 10px;
+}
+.sidebar h3 {
+  font-size: 30px;        /* Adjust font size */
+  font-weight: bold;      /* Make the text bold */
+  color:#000000;            /* Dark gray color for the text */
+  margin: 10px 0;        /* Add some space above and below */
+  text-align: center;     /* Center align the heading */
+  font-family: 'Arial', sans-serif; /* Use a clean font */
+}
+
+.sidebar p {
+  font: 16px Roboto,sans-serif; /* Font size for the paragraph */
+  line-height: 1.5; /* Line height for better readability */
+  color:black; /* Dark gray text color */
+  margin:24px,0px,0px;
+}
